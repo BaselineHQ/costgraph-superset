@@ -4,14 +4,6 @@
         "permissions": [
             {
                 "permission": {
-                    "name": "can_this_form_post"
-                },
-                "view_menu": {
-                    "name": "ResetPasswordView"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_this_form_get"
                 },
                 "view_menu": {
@@ -23,7 +15,7 @@
                     "name": "can_this_form_post"
                 },
                 "view_menu": {
-                    "name": "ResetMyPasswordView"
+                    "name": "ResetPasswordView"
                 }
             },
             {
@@ -39,7 +31,7 @@
                     "name": "can_this_form_post"
                 },
                 "view_menu": {
-                    "name": "UserInfoEditView"
+                    "name": "ResetMyPasswordView"
                 }
             },
             {
@@ -52,23 +44,15 @@
             },
             {
                 "permission": {
-                    "name": "can_edit"
+                    "name": "can_this_form_post"
                 },
                 "view_menu": {
-                    "name": "UserDBModelView"
+                    "name": "UserInfoEditView"
                 }
             },
             {
                 "permission": {
-                    "name": "can_delete"
-                },
-                "view_menu": {
-                    "name": "UserDBModelView"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_userinfo"
+                    "name": "can_show"
                 },
                 "view_menu": {
                     "name": "UserDBModelView"
@@ -84,6 +68,22 @@
             },
             {
                 "permission": {
+                    "name": "can_delete"
+                },
+                "view_menu": {
+                    "name": "UserDBModelView"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_edit"
+                },
+                "view_menu": {
+                    "name": "UserDBModelView"
+                }
+            },
+            {
+                "permission": {
                     "name": "can_add"
                 },
                 "view_menu": {
@@ -92,7 +92,7 @@
             },
             {
                 "permission": {
-                    "name": "can_show"
+                    "name": "can_userinfo"
                 },
                 "view_menu": {
                     "name": "UserDBModelView"
@@ -124,15 +124,7 @@
             },
             {
                 "permission": {
-                    "name": "can_edit"
-                },
-                "view_menu": {
-                    "name": "RoleModelView"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_delete"
+                    "name": "can_show"
                 },
                 "view_menu": {
                     "name": "RoleModelView"
@@ -148,7 +140,7 @@
             },
             {
                 "permission": {
-                    "name": "can_add"
+                    "name": "can_delete"
                 },
                 "view_menu": {
                     "name": "RoleModelView"
@@ -156,7 +148,15 @@
             },
             {
                 "permission": {
-                    "name": "can_show"
+                    "name": "can_edit"
+                },
+                "view_menu": {
+                    "name": "RoleModelView"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_add"
                 },
                 "view_menu": {
                     "name": "RoleModelView"
@@ -172,6 +172,14 @@
             },
             {
                 "permission": {
+                    "name": "can_get"
+                },
+                "view_menu": {
+                    "name": "Permission"
+                }
+            },
+            {
+                "permission": {
                     "name": "can_info"
                 },
                 "view_menu": {
@@ -180,10 +188,18 @@
             },
             {
                 "permission": {
-                    "name": "can_get"
+                    "name": "can_info"
                 },
                 "view_menu": {
-                    "name": "Permission"
+                    "name": "Role"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_put"
+                },
+                "view_menu": {
+                    "name": "Role"
                 }
             },
             {
@@ -204,6 +220,14 @@
             },
             {
                 "permission": {
+                    "name": "can_get"
+                },
+                "view_menu": {
+                    "name": "Role"
+                }
+            },
+            {
+                "permission": {
                     "name": "can_add_role_permissions"
                 },
                 "view_menu": {
@@ -212,22 +236,6 @@
             },
             {
                 "permission": {
-                    "name": "can_get"
-                },
-                "view_menu": {
-                    "name": "Role"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_put"
-                },
-                "view_menu": {
-                    "name": "Role"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_post"
                 },
                 "view_menu": {
@@ -239,7 +247,15 @@
                     "name": "can_info"
                 },
                 "view_menu": {
-                    "name": "Role"
+                    "name": "User"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_put"
+                },
+                "view_menu": {
+                    "name": "User"
                 }
             },
             {
@@ -260,14 +276,6 @@
             },
             {
                 "permission": {
-                    "name": "can_put"
-                },
-                "view_menu": {
-                    "name": "User"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_post"
                 },
                 "view_menu": {
@@ -279,7 +287,15 @@
                     "name": "can_info"
                 },
                 "view_menu": {
-                    "name": "User"
+                    "name": "ViewMenu"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_put"
+                },
+                "view_menu": {
+                    "name": "ViewMenu"
                 }
             },
             {
@@ -300,14 +316,6 @@
             },
             {
                 "permission": {
-                    "name": "can_put"
-                },
-                "view_menu": {
-                    "name": "ViewMenu"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_post"
                 },
                 "view_menu": {
@@ -319,7 +327,15 @@
                     "name": "can_info"
                 },
                 "view_menu": {
-                    "name": "ViewMenu"
+                    "name": "PermissionViewMenu"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_put"
+                },
+                "view_menu": {
+                    "name": "PermissionViewMenu"
                 }
             },
             {
@@ -340,23 +356,7 @@
             },
             {
                 "permission": {
-                    "name": "can_put"
-                },
-                "view_menu": {
-                    "name": "PermissionViewMenu"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_post"
-                },
-                "view_menu": {
-                    "name": "PermissionViewMenu"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_info"
                 },
                 "view_menu": {
                     "name": "PermissionViewMenu"
@@ -484,14 +484,6 @@
             },
             {
                 "permission": {
-                    "name": "can_read"
-                },
-                "view_menu": {
-                    "name": "DashboardFilterStateRestApi"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_write"
                 },
                 "view_menu": {
@@ -501,6 +493,14 @@
             {
                 "permission": {
                     "name": "can_read"
+                },
+                "view_menu": {
+                    "name": "DashboardFilterStateRestApi"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_write"
                 },
                 "view_menu": {
                     "name": "DashboardPermalinkRestApi"
@@ -508,7 +508,7 @@
             },
             {
                 "permission": {
-                    "name": "can_write"
+                    "name": "can_read"
                 },
                 "view_menu": {
                     "name": "DashboardPermalinkRestApi"
@@ -517,14 +517,6 @@
             {
                 "permission": {
                     "name": "can_delete_embedded"
-                },
-                "view_menu": {
-                    "name": "Dashboard"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_cache_dashboard_screenshot"
                 },
                 "view_menu": {
                     "name": "Dashboard"
@@ -541,6 +533,14 @@
             {
                 "permission": {
                     "name": "can_get_embedded"
+                },
+                "view_menu": {
+                    "name": "Dashboard"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_cache_dashboard_screenshot"
                 },
                 "view_menu": {
                     "name": "Dashboard"
@@ -620,7 +620,7 @@
             },
             {
                 "permission": {
-                    "name": "can_warm_up_cache"
+                    "name": "can_export"
                 },
                 "view_menu": {
                     "name": "Dataset"
@@ -628,7 +628,7 @@
             },
             {
                 "permission": {
-                    "name": "can_get_or_create_dataset"
+                    "name": "can_warm_up_cache"
                 },
                 "view_menu": {
                     "name": "Dataset"
@@ -644,7 +644,7 @@
             },
             {
                 "permission": {
-                    "name": "can_export"
+                    "name": "can_get_or_create_dataset"
                 },
                 "view_menu": {
                     "name": "Dataset"
@@ -692,14 +692,6 @@
             },
             {
                 "permission": {
-                    "name": "can_read"
-                },
-                "view_menu": {
-                    "name": "ExploreFormDataRestApi"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_write"
                 },
                 "view_menu": {
@@ -711,7 +703,7 @@
                     "name": "can_read"
                 },
                 "view_menu": {
-                    "name": "ExplorePermalinkRestApi"
+                    "name": "ExploreFormDataRestApi"
                 }
             },
             {
@@ -724,7 +716,15 @@
             },
             {
                 "permission": {
-                    "name": "can_export"
+                    "name": "can_read"
+                },
+                "view_menu": {
+                    "name": "ExplorePermalinkRestApi"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_import_"
                 },
                 "view_menu": {
                     "name": "ImportExportRestApi"
@@ -732,7 +732,7 @@
             },
             {
                 "permission": {
-                    "name": "can_import_"
+                    "name": "can_export"
                 },
                 "view_menu": {
                     "name": "ImportExportRestApi"
@@ -764,7 +764,7 @@
             },
             {
                 "permission": {
-                    "name": "can_read"
+                    "name": "can_write"
                 },
                 "view_menu": {
                     "name": "Row Level Security"
@@ -772,7 +772,7 @@
             },
             {
                 "permission": {
-                    "name": "can_write"
+                    "name": "can_read"
                 },
                 "view_menu": {
                     "name": "Row Level Security"
@@ -812,6 +812,14 @@
             },
             {
                 "permission": {
+                    "name": "can_write"
+                },
+                "view_menu": {
+                    "name": "Tag"
+                }
+            },
+            {
+                "permission": {
                     "name": "can_read"
                 },
                 "view_menu": {
@@ -820,10 +828,34 @@
             },
             {
                 "permission": {
-                    "name": "can_write"
+                    "name": "can_estimate_query_cost"
                 },
                 "view_menu": {
-                    "name": "Tag"
+                    "name": "SQLLab"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_format_sql"
+                },
+                "view_menu": {
+                    "name": "SQLLab"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_execute_sql_query"
+                },
+                "view_menu": {
+                    "name": "SQLLab"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_get_results"
+                },
+                "view_menu": {
+                    "name": "SQLLab"
                 }
             },
             {
@@ -844,47 +876,7 @@
             },
             {
                 "permission": {
-                    "name": "can_execute_sql_query"
-                },
-                "view_menu": {
-                    "name": "SQLLab"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_estimate_query_cost"
-                },
-                "view_menu": {
-                    "name": "SQLLab"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_get_results"
-                },
-                "view_menu": {
-                    "name": "SQLLab"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_format_sql"
-                },
-                "view_menu": {
-                    "name": "SQLLab"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_edit"
-                },
-                "view_menu": {
-                    "name": "DynamicPlugin"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_delete"
+                    "name": "can_show"
                 },
                 "view_menu": {
                     "name": "DynamicPlugin"
@@ -908,7 +900,7 @@
             },
             {
                 "permission": {
-                    "name": "can_add"
+                    "name": "can_delete"
                 },
                 "view_menu": {
                     "name": "DynamicPlugin"
@@ -916,7 +908,7 @@
             },
             {
                 "permission": {
-                    "name": "can_show"
+                    "name": "can_edit"
                 },
                 "view_menu": {
                     "name": "DynamicPlugin"
@@ -932,10 +924,10 @@
             },
             {
                 "permission": {
-                    "name": "can_query"
+                    "name": "can_add"
                 },
                 "view_menu": {
-                    "name": "Api"
+                    "name": "DynamicPlugin"
                 }
             },
             {
@@ -956,31 +948,15 @@
             },
             {
                 "permission": {
-                    "name": "can_get"
+                    "name": "can_query"
                 },
                 "view_menu": {
-                    "name": "Datasource"
+                    "name": "Api"
                 }
             },
             {
                 "permission": {
                     "name": "can_samples"
-                },
-                "view_menu": {
-                    "name": "Datasource"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_external_metadata_by_name"
-                },
-                "view_menu": {
-                    "name": "Datasource"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_save"
                 },
                 "view_menu": {
                     "name": "Datasource"
@@ -996,10 +972,26 @@
             },
             {
                 "permission": {
-                    "name": "can_get_value"
+                    "name": "can_get"
                 },
                 "view_menu": {
-                    "name": "KV"
+                    "name": "Datasource"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_save"
+                },
+                "view_menu": {
+                    "name": "Datasource"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_external_metadata_by_name"
+                },
+                "view_menu": {
+                    "name": "Datasource"
                 }
             },
             {
@@ -1012,15 +1004,15 @@
             },
             {
                 "permission": {
-                    "name": "can_edit"
+                    "name": "can_get_value"
                 },
                 "view_menu": {
-                    "name": "SavedQuery"
+                    "name": "KV"
                 }
             },
             {
                 "permission": {
-                    "name": "can_delete"
+                    "name": "can_show"
                 },
                 "view_menu": {
                     "name": "SavedQuery"
@@ -1036,6 +1028,22 @@
             },
             {
                 "permission": {
+                    "name": "can_delete"
+                },
+                "view_menu": {
+                    "name": "SavedQuery"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_edit"
+                },
+                "view_menu": {
+                    "name": "SavedQuery"
+                }
+            },
+            {
+                "permission": {
                     "name": "can_add"
                 },
                 "view_menu": {
@@ -1044,47 +1052,7 @@
             },
             {
                 "permission": {
-                    "name": "can_show"
-                },
-                "view_menu": {
-                    "name": "SavedQuery"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_dashboard"
-                },
-                "view_menu": {
-                    "name": "Superset"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_log"
-                },
-                "view_menu": {
-                    "name": "Superset"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_explore"
-                },
-                "view_menu": {
-                    "name": "Superset"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_sqllab_history"
-                },
-                "view_menu": {
-                    "name": "Superset"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_warm_up_cache"
                 },
                 "view_menu": {
                     "name": "Superset"
@@ -1100,7 +1068,15 @@
             },
             {
                 "permission": {
-                    "name": "can_explore_json"
+                    "name": "can_log"
+                },
+                "view_menu": {
+                    "name": "Superset"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_sqllab_history"
                 },
                 "view_menu": {
                     "name": "Superset"
@@ -1116,6 +1092,14 @@
             },
             {
                 "permission": {
+                    "name": "can_warm_up_cache"
+                },
+                "view_menu": {
+                    "name": "Superset"
+                }
+            },
+            {
+                "permission": {
                     "name": "can_dashboard_permalink"
                 },
                 "view_menu": {
@@ -1124,7 +1108,23 @@
             },
             {
                 "permission": {
-                    "name": "can_expanded"
+                    "name": "can_dashboard"
+                },
+                "view_menu": {
+                    "name": "Superset"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_explore_json"
+                },
+                "view_menu": {
+                    "name": "Superset"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_post"
                 },
                 "view_menu": {
                     "name": "TableSchemaView"
@@ -1132,7 +1132,7 @@
             },
             {
                 "permission": {
-                    "name": "can_post"
+                    "name": "can_expanded"
                 },
                 "view_menu": {
                     "name": "TableSchemaView"
@@ -1148,7 +1148,15 @@
             },
             {
                 "permission": {
-                    "name": "can_delete_query"
+                    "name": "can_put"
+                },
+                "view_menu": {
+                    "name": "TabStateView"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_delete"
                 },
                 "view_menu": {
                     "name": "TabStateView"
@@ -1164,22 +1172,6 @@
             },
             {
                 "permission": {
-                    "name": "can_delete"
-                },
-                "view_menu": {
-                    "name": "TabStateView"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_activate"
-                },
-                "view_menu": {
-                    "name": "TabStateView"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_get"
                 },
                 "view_menu": {
@@ -1188,7 +1180,7 @@
             },
             {
                 "permission": {
-                    "name": "can_put"
+                    "name": "can_post"
                 },
                 "view_menu": {
                     "name": "TabStateView"
@@ -1196,7 +1188,15 @@
             },
             {
                 "permission": {
-                    "name": "can_post"
+                    "name": "can_delete_query"
+                },
+                "view_menu": {
+                    "name": "TabStateView"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_activate"
                 },
                 "view_menu": {
                     "name": "TabStateView"
@@ -1244,7 +1244,7 @@
             },
             {
                 "permission": {
-                    "name": "can_grant_guest_token"
+                    "name": "can_read"
                 },
                 "view_menu": {
                     "name": "SecurityRestApi"
@@ -1252,7 +1252,7 @@
             },
             {
                 "permission": {
-                    "name": "can_read"
+                    "name": "can_grant_guest_token"
                 },
                 "view_menu": {
                     "name": "SecurityRestApi"
@@ -1774,6 +1774,14 @@
                 "view_menu": {
                     "name": "ExplorePermalinkRestApi"
                 }
+            },
+            {
+                "permission": {
+                    "name": "can_time_range"
+                },
+                "view_menu": {
+                    "name": "Api"
+                }
             }
         ]
     },
@@ -1902,7 +1910,7 @@
             },
             {
                 "permission": {
-                    "name": "can_this_form_post"
+                    "name": "can_this_form_get"
                 },
                 "view_menu": {
                     "name": "ResetMyPasswordView"
@@ -1910,7 +1918,7 @@
             },
             {
                 "permission": {
-                    "name": "can_this_form_get"
+                    "name": "can_this_form_post"
                 },
                 "view_menu": {
                     "name": "ResetMyPasswordView"
@@ -1998,14 +2006,6 @@
             },
             {
                 "permission": {
-                    "name": "can_read"
-                },
-                "view_menu": {
-                    "name": "DashboardFilterStateRestApi"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_write"
                 },
                 "view_menu": {
@@ -2015,6 +2015,14 @@
             {
                 "permission": {
                     "name": "can_read"
+                },
+                "view_menu": {
+                    "name": "DashboardFilterStateRestApi"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_write"
                 },
                 "view_menu": {
                     "name": "DashboardPermalinkRestApi"
@@ -2022,7 +2030,7 @@
             },
             {
                 "permission": {
-                    "name": "can_write"
+                    "name": "can_read"
                 },
                 "view_menu": {
                     "name": "DashboardPermalinkRestApi"
@@ -2031,14 +2039,6 @@
             {
                 "permission": {
                     "name": "can_delete_embedded"
-                },
-                "view_menu": {
-                    "name": "Dashboard"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_cache_dashboard_screenshot"
                 },
                 "view_menu": {
                     "name": "Dashboard"
@@ -2062,7 +2062,15 @@
             },
             {
                 "permission": {
-                    "name": "can_get_or_create_dataset"
+                    "name": "can_cache_dashboard_screenshot"
+                },
+                "view_menu": {
+                    "name": "Dashboard"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_export"
                 },
                 "view_menu": {
                     "name": "Dataset"
@@ -2078,7 +2086,7 @@
             },
             {
                 "permission": {
-                    "name": "can_export"
+                    "name": "can_get_or_create_dataset"
                 },
                 "view_menu": {
                     "name": "Dataset"
@@ -2110,14 +2118,6 @@
             },
             {
                 "permission": {
-                    "name": "can_read"
-                },
-                "view_menu": {
-                    "name": "ExploreFormDataRestApi"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_write"
                 },
                 "view_menu": {
@@ -2129,7 +2129,7 @@
                     "name": "can_read"
                 },
                 "view_menu": {
-                    "name": "ExplorePermalinkRestApi"
+                    "name": "ExploreFormDataRestApi"
                 }
             },
             {
@@ -2142,7 +2142,15 @@
             },
             {
                 "permission": {
-                    "name": "can_export"
+                    "name": "can_read"
+                },
+                "view_menu": {
+                    "name": "ExplorePermalinkRestApi"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_import_"
                 },
                 "view_menu": {
                     "name": "ImportExportRestApi"
@@ -2150,7 +2158,7 @@
             },
             {
                 "permission": {
-                    "name": "can_import_"
+                    "name": "can_export"
                 },
                 "view_menu": {
                     "name": "ImportExportRestApi"
@@ -2166,7 +2174,7 @@
             },
             {
                 "permission": {
-                    "name": "can_read"
+                    "name": "can_write"
                 },
                 "view_menu": {
                     "name": "Tag"
@@ -2174,7 +2182,7 @@
             },
             {
                 "permission": {
-                    "name": "can_write"
+                    "name": "can_read"
                 },
                 "view_menu": {
                     "name": "Tag"
@@ -2198,14 +2206,6 @@
             },
             {
                 "permission": {
-                    "name": "can_list"
-                },
-                "view_menu": {
-                    "name": "DynamicPlugin"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_show"
                 },
                 "view_menu": {
@@ -2214,10 +2214,10 @@
             },
             {
                 "permission": {
-                    "name": "can_query"
+                    "name": "can_list"
                 },
                 "view_menu": {
-                    "name": "Api"
+                    "name": "DynamicPlugin"
                 }
             },
             {
@@ -2238,31 +2238,15 @@
             },
             {
                 "permission": {
-                    "name": "can_get"
+                    "name": "can_query"
                 },
                 "view_menu": {
-                    "name": "Datasource"
+                    "name": "Api"
                 }
             },
             {
                 "permission": {
                     "name": "can_samples"
-                },
-                "view_menu": {
-                    "name": "Datasource"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_external_metadata_by_name"
-                },
-                "view_menu": {
-                    "name": "Datasource"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_save"
                 },
                 "view_menu": {
                     "name": "Datasource"
@@ -2278,10 +2262,26 @@
             },
             {
                 "permission": {
-                    "name": "can_get_value"
+                    "name": "can_get"
                 },
                 "view_menu": {
-                    "name": "KV"
+                    "name": "Datasource"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_save"
+                },
+                "view_menu": {
+                    "name": "Datasource"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_external_metadata_by_name"
+                },
+                "view_menu": {
+                    "name": "Datasource"
                 }
             },
             {
@@ -2294,15 +2294,15 @@
             },
             {
                 "permission": {
-                    "name": "can_edit"
+                    "name": "can_get_value"
                 },
                 "view_menu": {
-                    "name": "SavedQuery"
+                    "name": "KV"
                 }
             },
             {
                 "permission": {
-                    "name": "can_delete"
+                    "name": "can_show"
                 },
                 "view_menu": {
                     "name": "SavedQuery"
@@ -2318,34 +2318,26 @@
             },
             {
                 "permission": {
+                    "name": "can_delete"
+                },
+                "view_menu": {
+                    "name": "SavedQuery"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_edit"
+                },
+                "view_menu": {
+                    "name": "SavedQuery"
+                }
+            },
+            {
+                "permission": {
                     "name": "can_add"
                 },
                 "view_menu": {
                     "name": "SavedQuery"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_show"
-                },
-                "view_menu": {
-                    "name": "SavedQuery"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_dashboard"
-                },
-                "view_menu": {
-                    "name": "Superset"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_log"
-                },
-                "view_menu": {
-                    "name": "Superset"
                 }
             },
             {
@@ -2366,7 +2358,7 @@
             },
             {
                 "permission": {
-                    "name": "can_explore_json"
+                    "name": "can_log"
                 },
                 "view_menu": {
                     "name": "Superset"
@@ -2390,7 +2382,23 @@
             },
             {
                 "permission": {
-                    "name": "can_expanded"
+                    "name": "can_dashboard"
+                },
+                "view_menu": {
+                    "name": "Superset"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_explore_json"
+                },
+                "view_menu": {
+                    "name": "Superset"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_post"
                 },
                 "view_menu": {
                     "name": "TableSchemaView"
@@ -2398,7 +2406,7 @@
             },
             {
                 "permission": {
-                    "name": "can_post"
+                    "name": "can_expanded"
                 },
                 "view_menu": {
                     "name": "TableSchemaView"
@@ -2683,7 +2691,7 @@
             },
             {
                 "permission": {
-                    "name": "can_this_form_post"
+                    "name": "can_this_form_get"
                 },
                 "view_menu": {
                     "name": "ResetMyPasswordView"
@@ -2691,7 +2699,7 @@
             },
             {
                 "permission": {
-                    "name": "can_this_form_get"
+                    "name": "can_this_form_post"
                 },
                 "view_menu": {
                     "name": "ResetMyPasswordView"
@@ -2779,14 +2787,6 @@
             },
             {
                 "permission": {
-                    "name": "can_read"
-                },
-                "view_menu": {
-                    "name": "DashboardFilterStateRestApi"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_write"
                 },
                 "view_menu": {
@@ -2796,6 +2796,14 @@
             {
                 "permission": {
                     "name": "can_read"
+                },
+                "view_menu": {
+                    "name": "DashboardFilterStateRestApi"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_write"
                 },
                 "view_menu": {
                     "name": "DashboardPermalinkRestApi"
@@ -2803,7 +2811,7 @@
             },
             {
                 "permission": {
-                    "name": "can_write"
+                    "name": "can_read"
                 },
                 "view_menu": {
                     "name": "DashboardPermalinkRestApi"
@@ -2812,14 +2820,6 @@
             {
                 "permission": {
                     "name": "can_delete_embedded"
-                },
-                "view_menu": {
-                    "name": "Dashboard"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_cache_dashboard_screenshot"
                 },
                 "view_menu": {
                     "name": "Dashboard"
@@ -2843,6 +2843,14 @@
             },
             {
                 "permission": {
+                    "name": "can_cache_dashboard_screenshot"
+                },
+                "view_menu": {
+                    "name": "Dashboard"
+                }
+            },
+            {
+                "permission": {
                     "name": "can_read"
                 },
                 "view_menu": {
@@ -2859,14 +2867,6 @@
             },
             {
                 "permission": {
-                    "name": "can_read"
-                },
-                "view_menu": {
-                    "name": "ExploreFormDataRestApi"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_write"
                 },
                 "view_menu": {
@@ -2876,6 +2876,14 @@
             {
                 "permission": {
                     "name": "can_read"
+                },
+                "view_menu": {
+                    "name": "ExploreFormDataRestApi"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_write"
                 },
                 "view_menu": {
                     "name": "ExplorePermalinkRestApi"
@@ -2883,7 +2891,7 @@
             },
             {
                 "permission": {
-                    "name": "can_write"
+                    "name": "can_read"
                 },
                 "view_menu": {
                     "name": "ExplorePermalinkRestApi"
@@ -2899,7 +2907,7 @@
             },
             {
                 "permission": {
-                    "name": "can_read"
+                    "name": "can_write"
                 },
                 "view_menu": {
                     "name": "Tag"
@@ -2907,7 +2915,7 @@
             },
             {
                 "permission": {
-                    "name": "can_write"
+                    "name": "can_read"
                 },
                 "view_menu": {
                     "name": "Tag"
@@ -2931,14 +2939,6 @@
             },
             {
                 "permission": {
-                    "name": "can_list"
-                },
-                "view_menu": {
-                    "name": "DynamicPlugin"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_show"
                 },
                 "view_menu": {
@@ -2947,10 +2947,10 @@
             },
             {
                 "permission": {
-                    "name": "can_query"
+                    "name": "can_list"
                 },
                 "view_menu": {
-                    "name": "Api"
+                    "name": "DynamicPlugin"
                 }
             },
             {
@@ -2971,6 +2971,22 @@
             },
             {
                 "permission": {
+                    "name": "can_query"
+                },
+                "view_menu": {
+                    "name": "Api"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_external_metadata"
+                },
+                "view_menu": {
+                    "name": "Datasource"
+                }
+            },
+            {
+                "permission": {
                     "name": "can_get"
                 },
                 "view_menu": {
@@ -2987,10 +3003,10 @@
             },
             {
                 "permission": {
-                    "name": "can_external_metadata"
+                    "name": "can_store"
                 },
                 "view_menu": {
-                    "name": "Datasource"
+                    "name": "KV"
                 }
             },
             {
@@ -3003,23 +3019,7 @@
             },
             {
                 "permission": {
-                    "name": "can_store"
-                },
-                "view_menu": {
-                    "name": "KV"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_edit"
-                },
-                "view_menu": {
-                    "name": "SavedQuery"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_delete"
+                    "name": "can_show"
                 },
                 "view_menu": {
                     "name": "SavedQuery"
@@ -3035,34 +3035,26 @@
             },
             {
                 "permission": {
+                    "name": "can_delete"
+                },
+                "view_menu": {
+                    "name": "SavedQuery"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_edit"
+                },
+                "view_menu": {
+                    "name": "SavedQuery"
+                }
+            },
+            {
+                "permission": {
                     "name": "can_add"
                 },
                 "view_menu": {
                     "name": "SavedQuery"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_show"
-                },
-                "view_menu": {
-                    "name": "SavedQuery"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_dashboard"
-                },
-                "view_menu": {
-                    "name": "Superset"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_log"
-                },
-                "view_menu": {
-                    "name": "Superset"
                 }
             },
             {
@@ -3083,7 +3075,7 @@
             },
             {
                 "permission": {
-                    "name": "can_explore_json"
+                    "name": "can_log"
                 },
                 "view_menu": {
                     "name": "Superset"
@@ -3100,6 +3092,22 @@
             {
                 "permission": {
                     "name": "can_dashboard_permalink"
+                },
+                "view_menu": {
+                    "name": "Superset"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_dashboard"
+                },
+                "view_menu": {
+                    "name": "Superset"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_explore_json"
                 },
                 "view_menu": {
                     "name": "Superset"
@@ -3320,22 +3328,6 @@
             },
             {
                 "permission": {
-                    "name": "can_read"
-                },
-                "view_menu": {
-                    "name": "SQLLab"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_export_csv"
-                },
-                "view_menu": {
-                    "name": "SQLLab"
-                }
-            },
-            {
-                "permission": {
                     "name": "can_execute_sql_query"
                 },
                 "view_menu": {
@@ -3352,6 +3344,22 @@
             },
             {
                 "permission": {
+                    "name": "can_read"
+                },
+                "view_menu": {
+                    "name": "SQLLab"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_export_csv"
+                },
+                "view_menu": {
+                    "name": "SQLLab"
+                }
+            },
+            {
+                "permission": {
                     "name": "can_sqllab_history"
                 },
                 "view_menu": {
@@ -3360,15 +3368,7 @@
             },
             {
                 "permission": {
-                    "name": "can_delete_query"
-                },
-                "view_menu": {
-                    "name": "TabStateView"
-                }
-            },
-            {
-                "permission": {
-                    "name": "can_migrate_query"
+                    "name": "can_put"
                 },
                 "view_menu": {
                     "name": "TabStateView"
@@ -3384,7 +3384,7 @@
             },
             {
                 "permission": {
-                    "name": "can_activate"
+                    "name": "can_migrate_query"
                 },
                 "view_menu": {
                     "name": "TabStateView"
@@ -3400,7 +3400,7 @@
             },
             {
                 "permission": {
-                    "name": "can_put"
+                    "name": "can_post"
                 },
                 "view_menu": {
                     "name": "TabStateView"
@@ -3408,7 +3408,15 @@
             },
             {
                 "permission": {
-                    "name": "can_post"
+                    "name": "can_delete_query"
+                },
+                "view_menu": {
+                    "name": "TabStateView"
+                }
+            },
+            {
+                "permission": {
+                    "name": "can_activate"
                 },
                 "view_menu": {
                     "name": "TabStateView"
